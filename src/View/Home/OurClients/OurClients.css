@@ -13,3 +13,38 @@
     object-fit: contain;
     height: 100px;
 }
+@media(max-width:999px){
+        .clients_logos_wrapper img:last-child {
+        display: none;
+    }
+
+    .clients_logos_wrapper img {
+        width: 20% !important;
+    }
+}
+@media(max-width:799px){
+    .our_cilents_wrapper{
+        margin-top: -0px ;
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:699px){
+        .clients_logos_wrapper img {
+            width: 32% !important;
+        }
+        .clients_logos_wrapper img:nth-child(4){
+            display: none
+        }
+}
+@media(max-width:480px){
+        .clients_logos_wrapper img {
+            width: 45% !important;
+        }
+        .clients_logos_wrapper img:nth-child(3){
+            display: none
+        }
+        .our_cilents_wrapper{
+            margin-top: 0;
+            padding-bottom: 50px;
+        }
+}

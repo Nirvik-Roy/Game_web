@@ -21,6 +21,26 @@ const TestimonialSlider = () => {
         arrows: false,
         autoplay: true,
         autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1299, // Applies to screen widths up to 1024px
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 899, // Applies to screen widths up to 1024px
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+        ]
     };
     const data = [
         {

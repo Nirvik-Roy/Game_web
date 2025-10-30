@@ -79,3 +79,27 @@
     line-height: 25px;
 }
 
+@media(max-width:1199px){
+    .we_code_content{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .we_code_right{
+        display: none;
+    }
+    .we_code_left{
+        width: 100%;
+    }
+    .we_code_wrapper{
+        min-height: auto;
+    }
+}
+@media(max-width:480px){
+    .we_code_content{
+        padding: 0 20px;
+        width: 100%;
+    }
+    .we_code_left h1 {
+        font-size: 30px;
+    }
+}

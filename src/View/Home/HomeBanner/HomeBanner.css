@@ -55,7 +55,6 @@
     border: none;
     font-size: 16px;
     font-weight: 500;
-    z-index: 999;
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
@@ -89,13 +88,64 @@
     opacity: 1 !important;
     color: #fff !important;
 }
-.group_img{
+
+.group_img {
     width: 100%;
 }
-.group_img img{
+
+.group_img img {
     width: 100%;
     object-fit: cover;
 }
-.group_img{
+
+.group_img {
     transform: translateY(-42%);
+}
+
+@media(max-width:999px) {
+    .home_banner {
+        padding-bottom: 160px;
+    }
+
+    .home_banner_content_Wrapper {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+
+    .home_banner_left {
+        width: 100%;
+    }
+
+    .home_banner_right {
+
+        width: 100%;
+    }
+
+
+}
+@media(max-width:899px){
+   .home_banner{
+     padding-bottom: 120px;
+   }
+}
+@media(max-width:799px){
+    .home_banner {
+        padding-bottom: 110px;
+    }
+}
+@media(max-width:480px){
+    .home_banner_left h1{
+        font-size: 35px;
+    }
+    .home_banner{
+        padding-bottom: 50px;
+    }
+}
+@media(max-width:420px){
+    .home_banner_left_btn_wrapper{
+        flex-direction: column;
+    }
+    .home_banner_left_btn_wrapper button{
+        width: 100% !important;
+    }
 }

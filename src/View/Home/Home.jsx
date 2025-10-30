@@ -8,6 +8,7 @@ import WeCode from './WeCode/WeCode'
 import Testimonials from './Testimonials/Testimonials'
 import FAQ from './FAQ/FAQ'
 import TrustedUser from './TrustedUser/TrustedUser'
+import BlogPost from './BlogPost/BlogPost'
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <Testimonials/>
             <FAQ/>
             <TrustedUser/>
+            <BlogPost/>
         </>
     )
 }

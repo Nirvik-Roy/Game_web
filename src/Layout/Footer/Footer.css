@@ -1,0 +1,130 @@
+.footer_wrapper {
+    padding: 120px 0 30px 0;
+    background: linear-gradient(to bottom right, rgba(58, 53, 103, 1), rgba(25, 23, 44, 1));
+}
+
+.footer_content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+
+.footer_div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer_1 {
+    width: 22%;
+}
+
+.footer_1 p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    width: 80%;
+}
+
+.footer_2 {
+    width: 22%;
+}
+
+.footer_2 a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.footer_3 {
+    width: 22%;
+}
+
+.footer_3 a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.footer_4 {
+    width: 20%;
+}
+
+.social_links_Wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.social_links_Wrapper img {
+
+    width: 20px;
+    height: 20px;
+    object-fit: fill;
+}
+.copyright_div{
+    padding: 40px 0 0 0;
+}
+.copyright_div p{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+@media(max-width:1199px){
+    .footer_content_wrapper{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+@media(max-width:999px){
+    .footer_1{
+        width: 35%;
+    }
+}
+@media(max-width:768px){
+    .footer_1{
+        width: 50%;
+    }
+    .footer_2{
+        width: 40%;
+    }
+    .footer_3{
+        width: 32%;
+    }
+}
+@media(max-width:576px){
+
+        .copyright_div p{
+            padding: 0 20px;
+        }
+}
+@media(max-width:499px){
+    .footer_1{
+        width: 100%;
+    }
+    .footer_2{
+        width: 100%;
+    }
+      .footer_3{
+        width: 100%;
+    }
+    .footer_4{
+        width: 100%;
+    }
+    .footer_1 p{
+        width: 100%;
+    }
+    .footer_1 p br{
+        display: none;
+    }
+}

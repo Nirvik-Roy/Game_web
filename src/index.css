@@ -39,8 +39,8 @@ li {
 }
 
 .container {
-  width: 85%;
-  min-width: 85%;
+  width: 1295px;
+  min-width: 1295px;
   margin-inline: auto;
 }
 
@@ -50,4 +50,20 @@ li {
   color: rgba(58, 53, 103, 1);
   text-align: center;
   text-transform: capitalize;
+}
+@media(max-width:1499px){
+  .container{
+    width: 85%;
+    min-width: 85%;
+  }
+}
+@media(max-width:576px){
+  .heading{
+    font-size: 35px;
+  }
+}
+@media(max-width:480px){
+  .heading{
+    font-size: 35px;
+  }
 }

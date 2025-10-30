@@ -14,6 +14,26 @@ const PerfectCourseSlider = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 899, // Applies to screen widths up to 1024px
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+                 {
+                breakpoint: 576, // Applies to screen widths up to 1024px
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+        ]
     };
 
     return (
@@ -44,7 +64,7 @@ const PerfectCourseSlider = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
 
-                  
+
 
 
                 </Slider>

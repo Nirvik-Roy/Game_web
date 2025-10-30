@@ -17,7 +17,27 @@ const TrustedUser = () => {
         autoplay: true,
         autoplaySpeed: 2000,
         centerMode:true,
-        centerPadding:'0px'
+        centerPadding:'0px',
+        responsive: [
+            {
+                breakpoint: 960, // Applies to screen widths up to 1024px
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 579, // Applies to screen widths up to 1024px
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+        ]
     };
     return (
         <>

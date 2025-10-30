@@ -51,7 +51,7 @@
     background: linear-gradient(to left, rgba(255, 75, 183, 1) rgba(50, 91, 255, 1));
 }
 .event_card {
-    width: 24%;
+    width: 23%;
     background: linear-gradient(to left, rgba(255, 75, 183, 1), rgba(50, 91, 255, 1));
     border-radius: 20px;
     display: flex;
@@ -89,4 +89,53 @@
     font-size: 14px;
     text-align: center;
     line-height: 20px;
+}
+@media(max-width:1499px){
+    .event_content{
+        width: 99%;
+        height: 99%;
+    }
+}
+@media(max-width:1099px){
+    .event_content_wrapper{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .event_card{
+        width: 32%;
+    }
+}
+@media(max-width:999px){
+    .unlock_potential_content_wrapper{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .unlock_left{
+        width: 100%;
+    }
+    .unlock_right{
+        width: 100%;
+    }
+}
+@media(max-width:799px){
+    .event_content_wrapper{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .event_card{
+        width: 48%;
+    }
+}
+@media(max-width:576px){
+    .event_card{
+        width: 100%;
+    }
+    .unlock_potential_wrapper {
+        padding: 50px 0 0 0;
+    }
+}
+@media(max-width:480px){
+    .unlock_right h1{
+        font-size: 35px;
+    }
 }

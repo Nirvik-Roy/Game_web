@@ -58,3 +58,13 @@
 .slick-center .play_icon{
     opacity: 1;
 }
+@media(max-width:999px){
+    .trusted_user_content_wrapper .heading_para{
+        width: 100%;
+    }
+}
+@media(max-width:576px){
+    .trusted_slide{
+        width: 100% !important;
+    }
+}

@@ -1,5 +1,5 @@
 .perfect_course_wrapper {
-    padding: 50px 0 70px 0;
+    padding: 0px 0 70px 0;
 }
 
 .perfect_course_content_wrapper p {
@@ -20,9 +20,11 @@
 .perfect_course_slider_wrapper {
     margin-top: 40px;
 }
-.perfect_course_slider_wrapper .slick-dots{
+
+.perfect_course_slider_wrapper .slick-dots {
     bottom: -45px !important;
 }
+
 .perfect_course_slider_wrapper .slick-dots li button:before {
     font-family: 'slick';
     font-size: 15px !important;
@@ -45,6 +47,7 @@
     opacity: 1 !important;
     color: rgba(58, 53, 103, 1) !important;
 }
+
 .perfect_course_slider {
     width: 95% !important;
     min-width: 95%;
@@ -73,12 +76,41 @@
     font-size: 14px;
     color: #000;
     line-height: 18px;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 
 .slider2 {
     background: linear-gradient(to bottom, rgba(228, 238, 255, 1), rgba(204, 255, 195, 1));
 }
-.slider3{
-    background: linear-gradient(to bottom,rgba(255, 232, 227, 1), rgba(254, 222, 255, 1));
- 
+
+.slider3 {
+    background: linear-gradient(to bottom, rgba(255, 232, 227, 1), rgba(254, 222, 255, 1));
+
+}
+
+@media(max-width:1199px) {
+    .perfect_course_slider h3 {
+        font-weight: 500;
+        color: rgba(58, 53, 103, 1);
+        font-size: 20px;
+    }
+}
+
+@media(max-width:999px) {
+    .perfect_course_head_Wrapper {
+        width: 100%;
+    }
+}
+@media(max-width:899px){
+      .perfect_course_slider h3 {
+        font-weight: 500;
+        color: rgba(58, 53, 103, 1);
+        font-size: 18px;
+    } 
+}
+@media(max-width:576px){
+    .perfect_course_slider{
+        width: 100% !important;
+    }
 }

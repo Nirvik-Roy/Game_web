@@ -90,3 +90,8 @@
     width: 100%;
     height: 100%;
 }
+@media(max-width:899px){
+    .testimonial_slider_card{
+        width: 100% !important;
+    }
+}
