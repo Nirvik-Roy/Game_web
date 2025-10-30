@@ -1,0 +1,15 @@
+.our_cilents_wrapper{
+    margin-top: -100px;
+    padding-bottom: 50px;
+}
+
+.clients_logos_wrapper{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.clients_logos_wrapper img{
+    width: 15%;
+    object-fit: contain;
+    height: 100px;
+}

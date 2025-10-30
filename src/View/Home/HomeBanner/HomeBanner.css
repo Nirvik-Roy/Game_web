@@ -1,0 +1,101 @@
+.home_banner {
+    min-height: 100vh;
+    background: url('../../../assets/Group 815.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    border-radius: 0 0 30px 30px;
+}
+
+.home_banner_content_Wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home_banner_left {
+    width: 45%;
+}
+
+.home_banner_right {
+    width: 45%;
+}
+
+.home_banner_left h1 {
+    font-size: 4.5vw;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.home_banner_left p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.home_banner_left_btn_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.home_banner_left_btn_wrapper button:nth-child(1) {
+    padding: 14px 30px;
+}
+
+.check_courses_btn {
+    width: fit-content;
+    padding: 14px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 999;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.home_banner_right img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.home_banner .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 12px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 12px;
+    content: '';
+    text-align: center;
+    opacity: 0.5 !important;
+    color: #fff !important;
+    border-radius: 8px;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.home_banner .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #fff !important;
+}
+.group_img{
+    width: 100%;
+}
+.group_img img{
+    width: 100%;
+    object-fit: cover;
+}
+.group_img{
+    transform: translateY(-42%);
+}
