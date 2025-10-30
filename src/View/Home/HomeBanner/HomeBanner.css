@@ -101,6 +101,11 @@
 .group_img {
     transform: translateY(-42%);
 }
+@media(min-width:1600px){
+ .group_img{
+    width: 1295px;
+ }
+}
 @media(max-width:1399px){
     .home_banner_left h1{
         font-size: 55px;
