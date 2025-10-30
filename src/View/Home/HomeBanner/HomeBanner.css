@@ -24,7 +24,7 @@
 }
 
 .home_banner_left h1 {
-    font-size: 4.5vw;
+    font-size: 69px;
     color: #fff;
     font-weight: 800;
     margin-bottom: 20px;
@@ -101,7 +101,11 @@
 .group_img {
     transform: translateY(-42%);
 }
-
+@media(max-width:1399px){
+    .home_banner_left h1{
+        font-size: 55px;
+    }
+}
 @media(max-width:999px) {
     .home_banner {
         padding-bottom: 160px;

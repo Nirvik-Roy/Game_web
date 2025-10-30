@@ -9,14 +9,14 @@ import img3 from '../../../assets/minecraft 1.png'
 const PerfectCourseSlider = () => {
     var settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         responsive: [
             {
-                breakpoint: 899, // Applies to screen widths up to 1024px
+                breakpoint: 899, 
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -25,7 +25,7 @@ const PerfectCourseSlider = () => {
                 }
             },
                  {
-                breakpoint: 576, // Applies to screen widths up to 1024px
+                breakpoint: 576, 
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
